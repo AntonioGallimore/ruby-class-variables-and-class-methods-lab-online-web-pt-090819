@@ -4,15 +4,16 @@ class Song
   @@genre = 0 
   @@name = 0 
   @@count = 0 
-  # def initialize
-   # @@artist += 1
-  #end
-  #def initialize
-   # @@genre += 1
-  #end
-# def initialize
-   # @@name += 1
- # end
+  
+  def initialize
+    @@artist += 1
+  end
+  def initialize
+    @@genre += 1
+  end
+  def initialize
+    @@name += 1
+  end
  
  def initialize
    @@count
